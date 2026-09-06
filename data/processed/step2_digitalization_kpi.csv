@@ -1,0 +1,441 @@
+Country,Year,Cloud_pct,Cloud_filled,AI_pct,AI_filled,Turnover_MEUR,Turnover_filled,KPI_level,KPI_label
+Albania,2014,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+Albania,2015,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+Albania,2016,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+Albania,2017,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+Albania,2018,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+Albania,2020,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+Albania,2021,20.11,False,,False,,False,,N/A (not enough data even for a partial estimate)
+Albania,2022,23.5,True,,False,,False,,N/A (not enough data even for a partial estimate)
+Albania,2023,26.89,True,,False,,False,,N/A (not enough data even for a partial estimate)
+Albania,2024,30.29,True,11.26,False,,False,,N/A (not enough data even for a partial estimate)
+Albania,2025,33.68,False,38.36,False,,False,,N/A (not enough data even for a partial estimate)
+Austria,2014,11.67,False,,False,,False,3.0,High
+Austria,2015,14.36,True,,False,,False,3.0,High
+Austria,2016,17.05,False,,False,,False,3.0,High
+Austria,2017,21.03,False,,False,,False,3.0,High
+Austria,2018,23.27,False,,False,,False,3.0,High
+Austria,2020,38.13,False,,False,,False,3.0,High
+Austria,2021,40.4,False,8.93,False,4194.5,False,3.0,High
+Austria,2022,43.44,True,12.21,True,4298.4,False,3.0,High
+Austria,2023,46.48,False,15.5,False,4394.8,False,3.0,High
+Austria,2024,49.28,True,43.05,False,6981.9,False,3.0,High
+Austria,2025,52.08,False,41.59,False,,False,3.0,High
+Belgium,2014,21.24,False,,False,,False,2.0,Medium
+Belgium,2015,24.62,False,,False,,False,2.0,Medium
+Belgium,2016,28.46,False,,False,,False,2.0,Medium
+Belgium,2017,39.59,False,,False,,False,2.0,Medium
+Belgium,2018,40.25,False,,False,,False,2.0,Medium
+Belgium,2020,53.23,False,,False,,False,2.0,Medium
+Belgium,2021,52.96,False,7.79,False,2250.8,False,2.0,Medium
+Belgium,2022,52.33,True,8.59,True,3067.3,False,2.0,Medium
+Belgium,2023,51.69,False,9.38,False,3045.2,False,2.0,Medium
+Belgium,2024,56.66,True,26.75,False,3644.0,False,2.0,Medium
+Belgium,2025,61.62,False,21.76,False,,False,2.0,Medium
+Bosnia and Herzegovina,2014,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+Bosnia and Herzegovina,2015,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+Bosnia and Herzegovina,2016,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+Bosnia and Herzegovina,2017,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+Bosnia and Herzegovina,2018,8.27,False,,False,,False,,N/A (not enough data even for a partial estimate)
+Bosnia and Herzegovina,2020,8.54,False,,False,,False,,N/A (not enough data even for a partial estimate)
+Bosnia and Herzegovina,2021,8.85,False,,False,48.3,False,,N/A (not enough data even for a partial estimate)
+Bosnia and Herzegovina,2022,14.75,True,,False,57.5,False,,N/A (not enough data even for a partial estimate)
+Bosnia and Herzegovina,2023,20.66,False,,False,60.5,False,,N/A (not enough data even for a partial estimate)
+Bosnia and Herzegovina,2024,24.82,True,,False,63.2,False,,N/A (not enough data even for a partial estimate)
+Bosnia and Herzegovina,2025,28.99,False,,False,,False,,N/A (not enough data even for a partial estimate)
+Bulgaria,2014,7.72,False,,False,,False,,N/A (not enough data even for a partial estimate)
+Bulgaria,2015,5.36,False,,False,,False,,N/A (not enough data even for a partial estimate)
+Bulgaria,2016,6.7,False,,False,,False,,N/A (not enough data even for a partial estimate)
+Bulgaria,2017,8.01,False,,False,,False,,N/A (not enough data even for a partial estimate)
+Bulgaria,2018,8.35,False,,False,,False,,N/A (not enough data even for a partial estimate)
+Bulgaria,2020,10.85,False,,False,,False,,N/A (not enough data even for a partial estimate)
+Bulgaria,2021,12.79,False,,False,348.0,False,,N/A (not enough data even for a partial estimate)
+Bulgaria,2022,15.14,True,,False,391.8,False,,N/A (not enough data even for a partial estimate)
+Bulgaria,2023,17.5,False,11.91,False,443.1,False,,N/A (not enough data even for a partial estimate)
+Bulgaria,2024,17.66,True,25.21,False,500.7,False,,N/A (not enough data even for a partial estimate)
+Bulgaria,2025,17.83,False,19.88,False,,False,,N/A (not enough data even for a partial estimate)
+Croatia,2014,22.2,False,,False,,False,2.0,Medium
+Croatia,2015,22.44,False,,False,,False,2.0,Medium
+Croatia,2016,22.61,False,,False,,False,2.0,Medium
+Croatia,2017,31.21,False,,False,,False,2.0,Medium
+Croatia,2018,30.71,False,,False,,False,2.0,Medium
+Croatia,2020,38.95,False,,False,,False,2.0,Medium
+Croatia,2021,39.15,False,5.8,False,220.5,False,2.0,Medium
+Croatia,2022,42.11,True,10.8,True,268.0,False,2.0,Medium
+Croatia,2023,45.08,False,15.8,False,342.2,False,2.0,Medium
+Croatia,2024,42.0,False,19.66,False,337.0,False,2.0,Medium
+Croatia,2025,46.61,False,20.49,False,,False,2.0,Medium
+Cyprus,2014,10.16,False,,False,,False,1.0,Low
+Cyprus,2015,13.02,False,,False,,False,1.0,Low
+Cyprus,2016,15.26,False,,False,,False,1.0,Low
+Cyprus,2017,21.75,False,,False,,False,1.0,Low
+Cyprus,2018,26.58,False,,False,,False,1.0,Low
+Cyprus,2020,34.59,False,,False,,False,1.0,Low
+Cyprus,2021,50.29,False,9.06,False,130.4,False,1.0,Low
+Cyprus,2022,51.61,True,7.1,True,193.9,False,1.0,Low
+Cyprus,2023,52.93,False,5.14,False,272.8,False,1.0,Low
+Cyprus,2024,52.16,True,17.56,False,438.1,False,1.0,Low
+Cyprus,2025,51.38,False,35.21,False,,False,1.0,Low
+Czechia,2014,15.13,False,,False,,False,1.0,Low
+Czechia,2015,16.57,True,,False,,False,1.0,Low
+Czechia,2016,18.0,False,,False,,False,1.0,Low
+Czechia,2017,22.03,False,,False,,False,1.0,Low
+Czechia,2018,26.48,False,,False,,False,1.0,Low
+Czechia,2020,28.89,False,,False,,False,1.0,Low
+Czechia,2021,43.75,False,14.95,False,2058.2,False,1.0,Low
+Czechia,2022,45.45,True,13.49,True,2395.3,False,1.0,Low
+Czechia,2023,47.15,False,12.03,False,2540.7,False,1.0,Low
+Czechia,2024,51.02,True,40.95,False,2414.9,False,1.0,Low
+Czechia,2025,54.9,False,47.81,False,,False,1.0,Low
+Denmark,2014,37.67,False,,False,,False,1.0,Low
+Denmark,2015,36.65,False,,False,,False,1.0,Low
+Denmark,2016,41.6,False,,False,,False,1.0,Low
+Denmark,2017,50.53,False,,False,,False,1.0,Low
+Denmark,2018,55.62,False,,False,,False,1.0,Low
+Denmark,2020,66.9,False,,False,,False,1.0,Low
+Denmark,2021,64.82,False,7.38,False,2399.6,False,1.0,Low
+Denmark,2022,67.15,True,11.87,True,2615.5,False,1.0,Low
+Denmark,2023,69.48,False,16.35,False,2690.0,False,1.0,Low
+Denmark,2024,69.18,True,22.55,False,2909.2,False,1.0,Low
+Denmark,2025,68.88,False,17.66,False,,False,1.0,Low
+Estonia,2014,14.85,False,,False,,False,1.0,Low
+Estonia,2015,18.84,True,,False,,False,1.0,Low
+Estonia,2016,22.84,False,,False,,False,1.0,Low
+Estonia,2017,28.38,True,,False,,False,1.0,Low
+Estonia,2018,33.91,False,,False,,False,1.0,Low
+Estonia,2020,56.32,False,,False,,False,1.0,Low
+Estonia,2021,57.54,False,20.85,False,319.0,False,1.0,Low
+Estonia,2022,58.05,True,18.3,True,377.0,False,1.0,Low
+Estonia,2023,58.57,False,15.75,False,396.5,False,1.0,Low
+Estonia,2024,59.61,True,46.12,False,407.1,False,1.0,Low
+Estonia,2025,60.66,False,41.06,False,,False,1.0,Low
+"Euro area (EA11-1999, EA12-2001, EA13-2007, EA15-2008, EA16-2009, EA17-2011, EA18-2014, EA19-2015, EA20-2023, EA21-2026)",2014,19.36,False,,False,,False,2.0,"Medium (partial, 2/3 factors: turnover missing)"
+"Euro area (EA11-1999, EA12-2001, EA13-2007, EA15-2008, EA16-2009, EA17-2011, EA18-2014, EA19-2015, EA20-2023, EA21-2026)",2015,19.52,True,,False,,False,2.0,"Medium (partial, 2/3 factors: turnover missing)"
+"Euro area (EA11-1999, EA12-2001, EA13-2007, EA15-2008, EA16-2009, EA17-2011, EA18-2014, EA19-2015, EA20-2023, EA21-2026)",2016,19.67,False,,False,,False,2.0,"Medium (partial, 2/3 factors: turnover missing)"
+"Euro area (EA11-1999, EA12-2001, EA13-2007, EA15-2008, EA16-2009, EA17-2011, EA18-2014, EA19-2015, EA20-2023, EA21-2026)",2017,22.09,True,,False,,False,2.0,"Medium (partial, 2/3 factors: turnover missing)"
+"Euro area (EA11-1999, EA12-2001, EA13-2007, EA15-2008, EA16-2009, EA17-2011, EA18-2014, EA19-2015, EA20-2023, EA21-2026)",2018,24.51,False,,False,,False,2.0,"Medium (partial, 2/3 factors: turnover missing)"
+"Euro area (EA11-1999, EA12-2001, EA13-2007, EA15-2008, EA16-2009, EA17-2011, EA18-2014, EA19-2015, EA20-2023, EA21-2026)",2020,37.73,False,,False,,False,2.0,"Medium (partial, 2/3 factors: turnover missing)"
+"Euro area (EA11-1999, EA12-2001, EA13-2007, EA15-2008, EA16-2009, EA17-2011, EA18-2014, EA19-2015, EA20-2023, EA21-2026)",2021,42.7,False,13.01,False,,False,2.0,"Medium (partial, 2/3 factors: turnover missing)"
+"Euro area (EA11-1999, EA12-2001, EA13-2007, EA15-2008, EA16-2009, EA17-2011, EA18-2014, EA19-2015, EA20-2023, EA21-2026)",2022,43.78,True,13.32,True,,False,2.0,"Medium (partial, 2/3 factors: turnover missing)"
+"Euro area (EA11-1999, EA12-2001, EA13-2007, EA15-2008, EA16-2009, EA17-2011, EA18-2014, EA19-2015, EA20-2023, EA21-2026)",2023,44.85,False,13.64,False,,False,2.0,"Medium (partial, 2/3 factors: turnover missing)"
+"Euro area (EA11-1999, EA12-2001, EA13-2007, EA15-2008, EA16-2009, EA17-2011, EA18-2014, EA19-2015, EA20-2023, EA21-2026)",2024,49.3,True,26.85,False,,False,2.0,"Medium (partial, 2/3 factors: turnover missing)"
+"Euro area (EA11-1999, EA12-2001, EA13-2007, EA15-2008, EA16-2009, EA17-2011, EA18-2014, EA19-2015, EA20-2023, EA21-2026)",2025,53.76,False,28.84,False,,False,2.0,"Medium (partial, 2/3 factors: turnover missing)"
+European Union - 15 countries (1995-2004),2014,21.07,False,,False,,False,,N/A (not enough data even for a partial estimate)
+European Union - 15 countries (1995-2004),2015,22.14,True,,False,,False,,N/A (not enough data even for a partial estimate)
+European Union - 15 countries (1995-2004),2016,23.21,False,,False,,False,,N/A (not enough data even for a partial estimate)
+European Union - 15 countries (1995-2004),2017,25.89,True,,False,,False,,N/A (not enough data even for a partial estimate)
+European Union - 15 countries (1995-2004),2018,28.57,False,,False,,False,,N/A (not enough data even for a partial estimate)
+European Union - 15 countries (1995-2004),2020,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+European Union - 15 countries (1995-2004),2021,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+European Union - 15 countries (1995-2004),2022,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+European Union - 15 countries (1995-2004),2023,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+European Union - 15 countries (1995-2004),2024,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+European Union - 15 countries (1995-2004),2025,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+European Union - 27 countries (2007-2013),2014,18.57,False,,False,,False,,N/A (not enough data even for a partial estimate)
+European Union - 27 countries (2007-2013),2015,19.75,True,,False,,False,,N/A (not enough data even for a partial estimate)
+European Union - 27 countries (2007-2013),2016,20.92,False,,False,,False,,N/A (not enough data even for a partial estimate)
+European Union - 27 countries (2007-2013),2017,23.54,True,,False,,False,,N/A (not enough data even for a partial estimate)
+European Union - 27 countries (2007-2013),2018,26.16,False,,False,,False,,N/A (not enough data even for a partial estimate)
+European Union - 27 countries (2007-2013),2020,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+European Union - 27 countries (2007-2013),2021,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+European Union - 27 countries (2007-2013),2022,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+European Union - 27 countries (2007-2013),2023,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+European Union - 27 countries (2007-2013),2024,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+European Union - 27 countries (2007-2013),2025,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+European Union - 28 countries (2013-2020),2014,18.6,False,,False,,False,,N/A (not enough data even for a partial estimate)
+European Union - 28 countries (2013-2020),2015,19.77,True,,False,,False,,N/A (not enough data even for a partial estimate)
+European Union - 28 countries (2013-2020),2016,20.94,False,,False,,False,,N/A (not enough data even for a partial estimate)
+European Union - 28 countries (2013-2020),2017,23.57,True,,False,,False,,N/A (not enough data even for a partial estimate)
+European Union - 28 countries (2013-2020),2018,26.19,False,,False,,False,,N/A (not enough data even for a partial estimate)
+European Union - 28 countries (2013-2020),2020,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+European Union - 28 countries (2013-2020),2021,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+European Union - 28 countries (2013-2020),2022,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+European Union - 28 countries (2013-2020),2023,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+European Union - 28 countries (2013-2020),2024,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+European Union - 28 countries (2013-2020),2025,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+Finland,2014,50.78,False,,False,,False,1.0,Low
+Finland,2015,53.45,False,,False,,False,1.0,Low
+Finland,2016,56.92,False,,False,,False,1.0,Low
+Finland,2017,65.64,False,,False,,False,1.0,Low
+Finland,2018,65.26,False,,False,,False,1.0,Low
+Finland,2020,75.49,False,,False,,False,1.0,Low
+Finland,2021,75.29,False,13.81,False,1552.6,False,1.0,Low
+Finland,2022,76.79,True,19.12,True,1707.0,False,1.0,Low
+Finland,2023,78.29,False,24.44,False,1771.5,False,1.0,Low
+Finland,2024,78.75,True,34.54,False,1716.9,False,1.0,Low
+Finland,2025,79.21,False,,False,,False,1.0,Low
+France,2014,11.91,False,,False,,False,1.0,Low
+France,2015,14.51,True,,False,,False,1.0,Low
+France,2016,17.11,False,,False,,False,1.0,Low
+France,2017,18.27,True,,False,,False,1.0,Low
+France,2018,19.42,False,,False,,False,1.0,Low
+France,2020,26.86,False,,False,,False,1.0,Low
+France,2021,29.35,False,6.52,False,15395.4,False,1.0,Low
+France,2022,28.05,True,9.45,True,15318.6,False,1.0,Low
+France,2023,26.76,False,12.38,False,19509.7,False,1.0,Low
+France,2024,33.59,True,26.5,False,19355.7,False,1.0,Low
+France,2025,40.41,False,25.16,False,,False,1.0,Low
+Germany,2014,11.29,False,,False,,False,3.0,High
+Germany,2015,13.78,True,,False,,False,3.0,High
+Germany,2016,16.26,False,,False,,False,3.0,High
+Germany,2017,19.34,True,,False,,False,3.0,High
+Germany,2018,22.43,False,,False,,False,3.0,High
+Germany,2020,33.32,False,,False,,False,3.0,High
+Germany,2021,41.6,False,8.41,False,16881.2,False,3.0,High
+Germany,2022,44.3,True,9.48,True,20515.7,False,3.0,High
+Germany,2023,47.0,False,10.56,False,21602.8,False,3.0,High
+Germany,2024,50.45,True,25.35,False,26228.7,False,3.0,High
+Germany,2025,53.91,False,31.35,False,,False,3.0,High
+Greece,2014,7.6,False,,False,,False,1.0,Low
+Greece,2015,9.37,False,,False,,False,1.0,Low
+Greece,2016,9.21,False,,False,,False,1.0,Low
+Greece,2017,11.03,False,,False,,False,1.0,Low
+Greece,2018,12.83,False,,False,,False,1.0,Low
+Greece,2020,16.7,False,,False,,False,1.0,Low
+Greece,2021,20.72,False,55.26,False,453.3,False,1.0,Low
+Greece,2022,22.16,True,32.23,True,620.6,False,1.0,Low
+Greece,2023,23.59,False,9.21,False,842.6,False,1.0,Low
+Greece,2024,23.96,True,8.21,False,935.2,False,1.0,Low
+Greece,2025,24.33,False,31.41,False,,False,1.0,Low
+Hungary,2014,8.08,False,,False,,False,2.0,Medium
+Hungary,2015,10.56,False,,False,,False,2.0,Medium
+Hungary,2016,12.19,False,,False,,False,2.0,Medium
+Hungary,2017,16.34,False,,False,,False,2.0,Medium
+Hungary,2018,18.01,False,,False,,False,2.0,Medium
+Hungary,2020,25.21,False,,False,,False,2.0,Medium
+Hungary,2021,26.41,False,41.99,False,574.8,False,2.0,Medium
+Hungary,2022,35.67,True,31.45,True,633.3,False,2.0,Medium
+Hungary,2023,44.94,False,20.91,False,704.8,False,2.0,Medium
+Hungary,2024,48.34,False,15.69,False,1045.4,False,2.0,Medium
+Hungary,2025,47.96,False,28.15,False,,False,2.0,Medium
+Iceland,2014,43.13,False,,False,,False,,N/A (not enough data even for a partial estimate)
+Iceland,2015,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+Iceland,2016,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+Iceland,2017,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+Iceland,2018,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+Iceland,2020,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+Iceland,2021,,False,,False,182.2,False,,N/A (not enough data even for a partial estimate)
+Iceland,2022,,False,,False,250.1,False,,N/A (not enough data even for a partial estimate)
+Iceland,2023,,False,,False,291.9,False,,N/A (not enough data even for a partial estimate)
+Iceland,2024,,False,,False,285.3,False,,N/A (not enough data even for a partial estimate)
+Iceland,2025,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+Ireland,2014,27.6,False,,False,,False,2.0,"Medium (partial, 2/3 factors: turnover missing)"
+Ireland,2015,35.24,False,,False,,False,2.0,"Medium (partial, 2/3 factors: turnover missing)"
+Ireland,2016,36.08,False,,False,,False,2.0,"Medium (partial, 2/3 factors: turnover missing)"
+Ireland,2017,40.63,True,,False,,False,2.0,"Medium (partial, 2/3 factors: turnover missing)"
+Ireland,2018,45.18,False,,False,,False,2.0,"Medium (partial, 2/3 factors: turnover missing)"
+Ireland,2020,50.9,False,,False,,False,2.0,"Medium (partial, 2/3 factors: turnover missing)"
+Ireland,2021,58.79,False,18.85,False,,False,2.0,"Medium (partial, 2/3 factors: turnover missing)"
+Ireland,2022,60.95,True,23.92,True,,False,2.0,"Medium (partial, 2/3 factors: turnover missing)"
+Ireland,2023,63.1,False,28.99,False,,False,2.0,"Medium (partial, 2/3 factors: turnover missing)"
+Ireland,2024,68.07,True,22.78,False,,False,2.0,"Medium (partial, 2/3 factors: turnover missing)"
+Ireland,2025,73.04,False,21.5,False,,False,2.0,"Medium (partial, 2/3 factors: turnover missing)"
+Italy,2014,40.1,False,,False,,False,1.0,Low
+Italy,2015,30.8,True,,False,,False,1.0,Low
+Italy,2016,21.51,False,,False,,False,1.0,Low
+Italy,2017,22.02,True,,False,,False,1.0,Low
+Italy,2018,22.53,False,,False,,False,1.0,Low
+Italy,2020,59.14,False,,False,,False,1.0,Low
+Italy,2021,60.47,False,19.16,False,11317.1,False,1.0,Low
+Italy,2022,60.93,True,18.96,True,12424.0,False,1.0,Low
+Italy,2023,61.39,False,18.76,False,13721.5,False,1.0,Low
+Italy,2024,68.5,True,32.14,False,16064.5,False,1.0,Low
+Italy,2025,75.6,False,28.67,False,,False,1.0,Low
+Latvia,2014,5.69,False,,False,,False,3.0,High
+Latvia,2015,8.31,False,,False,,False,3.0,High
+Latvia,2016,8.37,False,,False,,False,3.0,High
+Latvia,2017,12.04,False,,False,,False,3.0,High
+Latvia,2018,14.53,False,,False,,False,3.0,High
+Latvia,2020,21.31,False,,False,,False,3.0,High
+Latvia,2021,28.55,False,4.38,False,390.3,False,3.0,High
+Latvia,2022,32.16,True,5.21,True,472.0,False,3.0,High
+Latvia,2023,35.76,False,6.04,False,525.3,False,3.0,High
+Latvia,2024,39.92,True,34.16,False,613.2,False,3.0,High
+Latvia,2025,44.08,False,53.12,False,,False,3.0,High
+Lithuania,2014,13.47,False,,False,,False,2.0,Medium
+Lithuania,2015,16.24,False,,False,,False,2.0,Medium
+Lithuania,2016,16.64,False,,False,,False,2.0,Medium
+Lithuania,2017,23.17,False,,False,,False,2.0,Medium
+Lithuania,2018,22.56,False,,False,,False,2.0,Medium
+Lithuania,2020,30.77,False,,False,,False,2.0,Medium
+Lithuania,2021,33.58,False,21.74,False,610.4,False,2.0,Medium
+Lithuania,2022,35.98,True,19.58,True,790.3,False,2.0,Medium
+Lithuania,2023,38.39,False,17.42,False,1136.2,False,2.0,Medium
+Lithuania,2024,48.23,True,26.97,False,1456.5,False,2.0,Medium
+Lithuania,2025,58.06,False,28.71,False,,False,2.0,Medium
+Luxembourg,2014,12.52,False,,False,,False,2.0,"Medium (partial, 2/3 factors: turnover missing)"
+Luxembourg,2015,15.67,True,,False,,False,2.0,"Medium (partial, 2/3 factors: turnover missing)"
+Luxembourg,2016,18.83,False,,False,,False,2.0,"Medium (partial, 2/3 factors: turnover missing)"
+Luxembourg,2017,21.68,True,,False,,False,2.0,"Medium (partial, 2/3 factors: turnover missing)"
+Luxembourg,2018,24.54,False,,False,,False,2.0,"Medium (partial, 2/3 factors: turnover missing)"
+Luxembourg,2020,29.09,False,,False,,False,2.0,"Medium (partial, 2/3 factors: turnover missing)"
+Luxembourg,2021,33.48,False,5.01,False,,False,2.0,"Medium (partial, 2/3 factors: turnover missing)"
+Luxembourg,2022,35.26,True,4.5,True,,False,2.0,"Medium (partial, 2/3 factors: turnover missing)"
+Luxembourg,2023,37.04,False,3.98,False,,False,2.0,"Medium (partial, 2/3 factors: turnover missing)"
+Luxembourg,2024,42.37,True,14.35,False,,False,2.0,"Medium (partial, 2/3 factors: turnover missing)"
+Luxembourg,2025,47.7,False,14.6,False,,False,2.0,"Medium (partial, 2/3 factors: turnover missing)"
+Malta,2014,17.35,False,,False,,False,2.0,Medium
+Malta,2015,24.64,False,,False,,False,2.0,Medium
+Malta,2016,28.45,False,,False,,False,2.0,Medium
+Malta,2017,32.5,True,,False,,False,2.0,Medium
+Malta,2018,36.55,False,,False,,False,2.0,Medium
+Malta,2020,52.16,False,,False,,False,2.0,Medium
+Malta,2021,57.09,False,0.0,False,120.5,False,2.0,Medium
+Malta,2022,61.91,True,4.83,True,99.7,False,2.0,Medium
+Malta,2023,66.74,False,9.67,False,162.5,False,2.0,Medium
+Malta,2024,70.91,True,18.61,False,129.6,False,2.0,Medium
+Malta,2025,75.07,False,29.33,False,,False,2.0,Medium
+Montenegro,2014,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+Montenegro,2015,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+Montenegro,2016,12.42,False,,False,,False,,N/A (not enough data even for a partial estimate)
+Montenegro,2017,15.22,True,,False,,False,,N/A (not enough data even for a partial estimate)
+Montenegro,2018,18.02,False,,False,,False,,N/A (not enough data even for a partial estimate)
+Montenegro,2020,23.48,True,,False,,False,,N/A (not enough data even for a partial estimate)
+Montenegro,2021,26.2,True,,False,,False,,N/A (not enough data even for a partial estimate)
+Montenegro,2022,28.93,True,,False,,False,,N/A (not enough data even for a partial estimate)
+Montenegro,2023,31.66,False,,False,,False,,N/A (not enough data even for a partial estimate)
+Montenegro,2024,32.51,True,,False,,False,,N/A (not enough data even for a partial estimate)
+Montenegro,2025,33.36,False,,False,,False,,N/A (not enough data even for a partial estimate)
+Netherlands,2014,27.65,False,,False,,False,1.0,Low
+Netherlands,2015,31.09,True,,False,,False,1.0,Low
+Netherlands,2016,34.53,False,,False,,False,1.0,Low
+Netherlands,2017,41.39,True,,False,,False,1.0,Low
+Netherlands,2018,48.25,False,,False,,False,1.0,Low
+Netherlands,2020,52.56,False,,False,,False,1.0,Low
+Netherlands,2021,64.94,False,20.7,False,9039.4,False,1.0,Low
+Netherlands,2022,64.56,True,18.35,True,11404.1,False,1.0,Low
+Netherlands,2023,64.19,False,16.0,False,11690.5,False,1.0,Low
+Netherlands,2024,71.02,False,29.09,False,12842.3,False,1.0,Low
+Netherlands,2025,68.49,False,30.41,False,,False,1.0,Low
+North Macedonia,2014,11.89,False,,False,,False,,N/A (not enough data even for a partial estimate)
+North Macedonia,2015,9.38,True,,False,,False,,N/A (not enough data even for a partial estimate)
+North Macedonia,2016,6.87,False,,False,,False,,N/A (not enough data even for a partial estimate)
+North Macedonia,2017,8.75,True,,False,,False,,N/A (not enough data even for a partial estimate)
+North Macedonia,2018,10.62,True,,False,,False,,N/A (not enough data even for a partial estimate)
+North Macedonia,2020,14.38,False,,False,,False,,N/A (not enough data even for a partial estimate)
+North Macedonia,2021,13.55,False,4.83,False,,False,,N/A (not enough data even for a partial estimate)
+North Macedonia,2022,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+North Macedonia,2023,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+North Macedonia,2024,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+North Macedonia,2025,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+Norway,2014,29.31,False,,False,,False,1.0,Low
+Norway,2015,37.56,False,,False,,False,1.0,Low
+Norway,2016,39.74,False,,False,,False,1.0,Low
+Norway,2017,48.02,False,,False,,False,1.0,Low
+Norway,2018,50.66,False,,False,,False,1.0,Low
+Norway,2020,63.73,False,,False,,False,1.0,Low
+Norway,2021,64.02,False,6.01,False,1782.7,False,1.0,Low
+Norway,2022,67.68,True,8.04,True,1921.9,False,1.0,Low
+Norway,2023,71.34,False,10.08,False,2496.3,False,1.0,Low
+Norway,2024,68.94,True,13.49,False,2958.1,False,1.0,Low
+Norway,2025,66.54,False,11.32,False,,False,1.0,Low
+Poland,2014,5.76,False,,False,,False,3.0,High
+Poland,2015,7.28,False,,False,,False,3.0,High
+Poland,2016,8.17,False,,False,,False,3.0,High
+Poland,2017,10.0,False,,False,,False,3.0,High
+Poland,2018,11.48,False,,False,,False,3.0,High
+Poland,2020,24.42,False,,False,,False,3.0,High
+Poland,2021,28.7,False,17.55,False,4596.5,False,3.0,High
+Poland,2022,42.19,True,20.09,True,5950.8,False,3.0,High
+Poland,2023,55.67,False,22.63,False,7047.1,False,3.0,High
+Poland,2024,55.19,True,31.65,False,8807.2,False,3.0,High
+Poland,2025,54.71,False,54.89,False,,False,3.0,High
+Portugal,2014,12.56,False,,False,,False,1.0,Low
+Portugal,2015,15.25,True,,False,,False,1.0,Low
+Portugal,2016,17.95,False,,False,,False,1.0,Low
+Portugal,2017,22.6,False,,False,,False,1.0,Low
+Portugal,2018,24.68,False,,False,,False,1.0,Low
+Portugal,2020,29.0,False,,False,,False,1.0,Low
+Portugal,2021,33.37,False,16.38,False,801.9,False,1.0,Low
+Portugal,2022,35.44,True,13.46,True,908.7,False,1.0,Low
+Portugal,2023,37.5,False,10.54,False,1030.7,False,1.0,Low
+Portugal,2024,38.11,True,11.81,False,1045.5,False,1.0,Low
+Portugal,2025,38.71,False,25.35,False,,False,1.0,Low
+Romania,2014,4.86,False,,False,,False,1.0,Low
+Romania,2015,8.17,False,,False,,False,1.0,Low
+Romania,2016,7.29,False,,False,,False,1.0,Low
+Romania,2017,10.79,False,,False,,False,1.0,Low
+Romania,2018,10.29,False,,False,,False,1.0,Low
+Romania,2020,15.73,False,,False,,False,1.0,Low
+Romania,2021,14.14,False,32.53,False,880.0,False,1.0,Low
+Romania,2022,16.27,True,51.97,True,1083.7,False,1.0,Low
+Romania,2023,18.4,False,71.4,False,1221.3,False,1.0,Low
+Romania,2024,21.67,True,25.32,False,1320.5,False,1.0,Low
+Romania,2025,24.94,False,34.72,False,,False,1.0,Low
+Slovakia,2014,19.32,False,,False,,False,1.0,Low
+Slovakia,2015,20.41,False,,False,,False,1.0,Low
+Slovakia,2016,17.89,False,,False,,False,1.0,Low
+Slovakia,2017,22.21,False,,False,,False,1.0,Low
+Slovakia,2018,21.14,False,,False,,False,1.0,Low
+Slovakia,2020,25.57,False,,False,,False,1.0,Low
+Slovakia,2021,36.14,False,25.79,False,852.1,False,1.0,Low
+Slovakia,2022,35.28,True,23.16,True,979.7,False,1.0,Low
+Slovakia,2023,34.42,False,20.52,False,1114.3,False,1.0,Low
+Slovakia,2024,35.43,True,18.4,False,1158.4,False,1.0,Low
+Slovakia,2025,36.44,False,14.73,False,,False,1.0,Low
+Slovenia,2014,15.42,False,,False,,False,1.0,Low
+Slovenia,2015,17.49,False,,False,,False,1.0,Low
+Slovenia,2016,22.17,False,,False,,False,1.0,Low
+Slovenia,2017,22.07,False,,False,,False,1.0,Low
+Slovenia,2018,26.28,False,,False,,False,1.0,Low
+Slovenia,2020,38.6,False,,False,,False,1.0,Low
+Slovenia,2021,42.69,False,15.92,False,223.3,False,1.0,Low
+Slovenia,2022,41.45,True,15.29,True,255.5,False,1.0,Low
+Slovenia,2023,40.21,False,14.67,False,263.8,False,1.0,Low
+Slovenia,2024,44.12,True,26.25,False,295.4,False,1.0,Low
+Slovenia,2025,48.04,False,22.67,False,,False,1.0,Low
+Spain,2014,14.04,False,,False,,False,1.0,Low
+Spain,2015,14.56,False,,False,,False,1.0,Low
+Spain,2016,18.34,False,,False,,False,1.0,Low
+Spain,2017,23.54,False,,False,,False,1.0,Low
+Spain,2018,21.99,False,,False,,False,1.0,Low
+Spain,2020,26.15,False,,False,,False,1.0,Low
+Spain,2021,30.92,False,9.15,False,3398.8,False,1.0,Low
+Spain,2022,30.48,True,11.2,True,4108.2,False,1.0,Low
+Spain,2023,30.04,False,13.24,False,5102.9,False,1.0,Low
+Spain,2024,35.83,False,20.24,False,6105.5,False,1.0,Low
+Spain,2025,41.65,False,24.71,False,,False,1.0,Low
+Sweden,2014,39.44,False,,False,,False,1.0,Low
+Sweden,2015,43.8,True,,False,,False,1.0,Low
+Sweden,2016,48.16,False,,False,,False,1.0,Low
+Sweden,2017,52.69,True,,False,,False,1.0,Low
+Sweden,2018,57.21,False,,False,,False,1.0,Low
+Sweden,2020,69.51,False,,False,,False,1.0,Low
+Sweden,2021,75.39,False,19.42,False,8761.9,False,1.0,Low
+Sweden,2022,73.5,True,13.54,True,9986.2,False,1.0,Low
+Sweden,2023,71.62,False,7.66,False,10500.4,False,1.0,Low
+Sweden,2024,71.81,True,20.17,False,13314.1,False,1.0,Low
+Sweden,2025,72.0,False,34.15,False,,False,1.0,Low
+Switzerland,2014,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+Switzerland,2015,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+Switzerland,2016,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+Switzerland,2017,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+Switzerland,2018,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+Switzerland,2020,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+Switzerland,2021,,False,,False,8728.8,False,,N/A (not enough data even for a partial estimate)
+Switzerland,2022,,False,,False,6859.5,False,,N/A (not enough data even for a partial estimate)
+Switzerland,2023,,False,,False,7261.7,True,,N/A (not enough data even for a partial estimate)
+Switzerland,2024,,False,,False,7664.0,False,,N/A (not enough data even for a partial estimate)
+Switzerland,2025,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+United Kingdom,2014,23.97,False,,False,,False,,N/A (not enough data even for a partial estimate)
+United Kingdom,2015,29.31,True,,False,,False,,N/A (not enough data even for a partial estimate)
+United Kingdom,2016,34.66,False,,False,,False,,N/A (not enough data even for a partial estimate)
+United Kingdom,2017,38.26,True,,False,,False,,N/A (not enough data even for a partial estimate)
+United Kingdom,2018,41.86,False,,False,,False,,N/A (not enough data even for a partial estimate)
+United Kingdom,2020,53.03,False,,False,,False,,N/A (not enough data even for a partial estimate)
+United Kingdom,2021,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+United Kingdom,2022,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+United Kingdom,2023,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+United Kingdom,2024,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+United Kingdom,2025,,False,,False,,False,,N/A (not enough data even for a partial estimate)
+EU27 (cloud/AI direct from Eurostat; turnover bottom-up on available countries),2014,17.82,False,,False,,False,,N/A (aggregate)
+EU27 (cloud/AI direct from Eurostat; turnover bottom-up on available countries),2015,18.36,True,,False,,False,,N/A (aggregate)
+EU27 (cloud/AI direct from Eurostat; turnover bottom-up on available countries),2016,18.9,False,,False,,False,,N/A (aggregate)
+EU27 (cloud/AI direct from Eurostat; turnover bottom-up on available countries),2017,21.4,True,,False,,False,,N/A (aggregate)
+EU27 (cloud/AI direct from Eurostat; turnover bottom-up on available countries),2018,23.9,False,,False,,False,,N/A (aggregate)
+EU27 (cloud/AI direct from Eurostat; turnover bottom-up on available countries),2020,36.1,False,,False,,False,,N/A (aggregate)
+EU27 (cloud/AI direct from Eurostat; turnover bottom-up on available countries),2021,40.97,False,13.54,False,89783.8,False,,N/A (aggregate)
+EU27 (cloud/AI direct from Eurostat; turnover bottom-up on available countries),2022,43.14,True,13.95,True,103094.6,False,,N/A (aggregate)
+EU27 (cloud/AI direct from Eurostat; turnover bottom-up on available countries),2023,45.32,False,14.35,False,114922.0,False,,N/A (aggregate)
+EU27 (cloud/AI direct from Eurostat; turnover bottom-up on available countries),2024,49.03,True,27.11,False,133373.8,False,,N/A (aggregate)
+EU27 (cloud/AI direct from Eurostat; turnover bottom-up on available countries),2025,52.74,False,30.41,False,,False,,N/A (aggregate)
