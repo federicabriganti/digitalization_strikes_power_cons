@@ -51,7 +51,7 @@ def load_exposure_multi_year():
 def load_instability():
     df = pd.read_excel(STEP3_XLSX, sheet_name="Summary per country")
     df["Country"] = df["Country"].replace(NAME_FIX_STEP3_TO_STEP1)
-    return df[["Country", "Pct_anomalous_months", "Average_intensity_recency_weighted"]]
+    return df[["Country", "Pct_anomalous_months", "Average_intensity_recency_severity_weighted"]]
 
 
 def load_kpi():
@@ -62,7 +62,7 @@ def load_kpi():
 
 def classify_quadrant(row, exposure_threshold, instability_threshold):
     high_exposure = row["Exposure_pct"] >= exposure_threshold
-    high_instability = row["Average_intensity_recency_weighted"] >= instability_threshold
+    high_instability = row["Average_intensity_recency_severity_weighted"] >= instability_threshold
     if high_exposure and high_instability:
         return "High exposure / High instability"
     if high_exposure and not high_instability:
@@ -79,7 +79,7 @@ def build_year(table, year):
     exposure_threshold = eu_row["Exposure_pct"].iloc[0]
 
     countries = sub[sub["Country"] != eu_label].copy()
-    instability_threshold = countries["Average_intensity_recency_weighted"].median()
+    instability_threshold = countries["Average_intensity_recency_severity_weighted"].median()
     countries["Year"] = year
     countries["EU_exposure_threshold"] = round(exposure_threshold, 2)
     countries["Median_instability_threshold"] = round(instability_threshold, 2)
@@ -104,7 +104,7 @@ def main():
     for year, df_year in zip([2026, 2028, 2030], results):
         print(f"--- {year}: exposure threshold={df_year['EU_exposure_threshold'].iloc[0]}%, "
               f"instability threshold={df_year['Median_instability_threshold'].iloc[0]}% ---")
-        print(df_year[["Country", "Exposure_pct", "Average_intensity_recency_weighted", "KPI_label", "Quadrant"]].to_string(index=False))
+        print(df_year[["Country", "Exposure_pct", "Average_intensity_recency_severity_weighted", "KPI_label", "Quadrant"]].to_string(index=False))
         print()
 
 

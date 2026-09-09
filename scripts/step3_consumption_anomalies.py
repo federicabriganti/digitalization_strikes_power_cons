@@ -126,14 +126,20 @@ def main():
         weights = []
         for month, rec in anomalies.iterrows():
             years_ago = (reference - month).n / 12
-            weight = float(np.exp(-DECAY * max(years_ago, 0)))
-            weights.append(weight)
+            recency_weight = float(np.exp(-DECAY * max(years_ago, 0)))
+            # combined weight = recency x severity, so a severe anomaly counts more
+            # than a mild one even at the same age - a recency-only weight would let
+            # a barely-flagged month (e.g. -1%) dilute the average as much as a real
+            # shock (e.g. -28%) of the same age.
+            combined_weight = recency_weight * abs(rec["residual_pct_trend"])
+            weights.append(combined_weight)
             anomaly_rows.append(
                 {
                     "Country": country,
                     "Month": str(month),
                     "Years_ago": round(years_ago, 2),
-                    "Recency_weight": round(weight, 4),
+                    "Recency_weight": round(recency_weight, 4),
+                    "Combined_weight_recency_severity": round(combined_weight, 4),
                     "Consumption_GWh": round(rec["value"], 1),
                     "Residual_GWh": round(rec["residual"], 1),
                     "Residual_pct_trend": round(rec["residual_pct_trend"], 2),
@@ -152,12 +158,12 @@ def main():
                 "Pct_anomalous_months": round(100 * len(anomalies) / n_valid_months, 2) if n_valid_months else None,
                 "Average_intensity_pct_trend": round(abs_intensity.mean(), 2) if len(anomalies) else None,
                 "N_anomalies_recency_weighted": round(weights.sum(), 2) if len(weights) else 0,
-                "Average_intensity_recency_weighted": round(np.average(abs_intensity, weights=weights), 2) if len(weights) and weights.sum() > 0 else None,
+                "Average_intensity_recency_severity_weighted": round(np.average(abs_intensity, weights=weights), 2) if len(weights) and weights.sum() > 0 else None,
             }
         )
 
     anomaly_table = pd.DataFrame(anomaly_rows)
-    summary_table = pd.DataFrame(summary_rows).sort_values("Average_intensity_recency_weighted", ascending=False)
+    summary_table = pd.DataFrame(summary_rows).sort_values("Average_intensity_recency_severity_weighted", ascending=False)
 
     with pd.ExcelWriter(OUTPUT_XLSX) as writer:
         anomaly_table.to_excel(writer, index=False, sheet_name="Anomalies")

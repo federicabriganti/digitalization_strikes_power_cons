@@ -3,9 +3,7 @@ Step 2 - Three digitalization factors per country, per year + composite KPI
 
 Factors:
   1. Cloud computing adoption (% of enterprises, 10+ employees, all activities), 2014-2025
-  2. AI adoption (% of manufacturing enterprises using AI for marketing/sales - note:
-     the Eurostat indicator only covers the manufacturing sector, not general "AI
-     adoption"), 2021-2025
+  2. AI adoption (% of enterprises using AI for marketing/sales), 2021-2025
   3. Turnover of the "Data processing, hosting and related activities; web portals"
      sector (million euro), 2021-2024
 
@@ -177,7 +175,8 @@ def build_annual_table():
 
 
 def add_kpi(table):
-    """KPI on the 2021-2024 common window (limited by turnover)."""
+    """KPI on the 2021-2024 common window (limited by turnover). Also exposes the
+    underlying growth rates used for the comparison, as columns on every row."""
     pivot = table.pivot_table(index="Country", columns="Year", values=["Cloud_pct", "AI_pct", "Turnover_MEUR"])
 
     def growth(metric, country):
@@ -199,15 +198,25 @@ def add_kpi(table):
 
     kpi_rows = []
     for country in pivot.index:
-        if country == eu_label:
-            kpi_rows.append({"Country": country, "KPI_level": None, "KPI_label": "N/A (aggregate)"})
-            continue
         c, a, t = growth("Cloud_pct", country), growth("AI_pct", country), growth("Turnover_MEUR", country)
+        base_row = {
+            "Country": country,
+            "Cloud_growth_2021_2024_pp": round(c, 2) if c is not None else None,
+            "AI_growth_2021_2024_pp": round(a, 2) if a is not None else None,
+            "Turnover_growth_2021_2024_pct": round(t, 2) if t is not None else None,
+            "EU_cloud_growth_2021_2024_pp": round(eu_cloud, 2),
+            "EU_AI_growth_2021_2024_pp": round(eu_ai, 2),
+            "EU_turnover_growth_2021_2024_pct": round(eu_turnover, 2),
+        }
+
+        if country == eu_label:
+            kpi_rows.append({**base_row, "KPI_level": None, "KPI_label": "N/A (aggregate)"})
+            continue
 
         if None not in (c, a, t):
             above = sum([c > eu_cloud, a > eu_ai, t > eu_turnover])
             level = 3 if above == 3 else (2 if above == 2 else 1)
-            kpi_rows.append({"Country": country, "KPI_level": level, "KPI_label": {3: "High", 2: "Medium", 1: "Low"}[level]})
+            kpi_rows.append({**base_row, "KPI_level": level, "KPI_label": {3: "High", 2: "Medium", 1: "Low"}[level]})
         elif None not in (c, a) and t is None:
             # turnover missing (usually confidential): fallback on cloud+AI only.
             # Clearly labeled as partial - not the same as a full KPI, it is a
@@ -215,9 +224,9 @@ def add_kpi(table):
             above = sum([c > eu_cloud, a > eu_ai])
             level = 3 if above == 2 else (2 if above == 1 else 1)
             label = {3: "High", 2: "Medium", 1: "Low"}[level]
-            kpi_rows.append({"Country": country, "KPI_level": level, "KPI_label": f"{label} (partial, 2/3 factors: turnover missing)"})
+            kpi_rows.append({**base_row, "KPI_level": level, "KPI_label": f"{label} (partial, 2/3 factors: turnover missing)"})
         else:
-            kpi_rows.append({"Country": country, "KPI_level": None, "KPI_label": "N/A (not enough data even for a partial estimate)"})
+            kpi_rows.append({**base_row, "KPI_level": None, "KPI_label": "N/A (not enough data even for a partial estimate)"})
 
     kpi_df = pd.DataFrame(kpi_rows)
     return table.merge(kpi_df, on="Country", how="left")
